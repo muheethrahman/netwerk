@@ -1,0 +1,85 @@
+ [{
+         "photo": "https://raw.githubusercontent.com/X-workzDev01/NetzwerkSystem/main/img/t1.jpg",
+         "title": "ThinkPad E14",
+         "description": "720p HD Camera,Mic,Wifi,BagPack,1Y Onsite Warranty + 1 Yr Premiere Support",
+         "processor": "Core i3-10110U",
+         "ramharddisk": "1TB/ 4GB DDR4",
+         "operatingsystem": "No OS",
+         "available": "Limited Stock"
+     }, {
+         "photo": "https://raw.githubusercontent.com/X-workzDev01/NetzwerkSystem/main/img/t10.jpg",
+         "title": "ThinkPad E14",
+         "description": "720p HD Camera,Mic,Backlit Kyb,BagPack,1Y Onsite Warranty + 1 Yr Premiere Support",
+         "processor": "Core i5-10210U",
+         "ramharddisk": "500GB/4GB DDR4",
+         "operatingsystem": "No OS",
+         "available": "Limited Stock"
+     }, {
+         "photo": "https://raw.githubusercontent.com/X-workzDev01/NetzwerkSystem/main/img/t5.webp",
+         "title": "ThinkPad E14",
+         "description": "720p HD Camera,Mic,Wifi,BagPack,1Y Onsite Warranty + 1 Yr Premiere Support",
+         "processor": "Core i3-10110U",
+         "ramharddisk": " 1TB/ 4GB DDR4",
+         "operatingsystem": "Win10 Home SL",
+         "available": "Limited Stock"
+     }, {
+         "photo": "https://raw.githubusercontent.com/X-workzDev01/NetzwerkSystem/main/img/t6.jpeg",
+         "title": "ThinkPad E14",
+         "description": "720p HD Camera,Mic,Backlit Kyb,BagPack,3 Yrs Onsite Warranty + 1 Yr Premiere Support",
+         "processor": "Core i5-10210U",
+         "ramharddisk": " 500 GB/ 8GB DDR4",
+         "operatingsystem": "Win10 Pro",
+         "available": "Limited Stock"
+     }, {
+         "photo": "https://raw.githubusercontent.com/X-workzDev01/NetzwerkSystem/main/img/t4.jpg",
+         "title": "ThinkPad E14",
+         "description": "720p HD Camera,Mic,Backlit Kyb,BagPack,1Y Onsite Warranty + 1 Yr Premiere Support",
+         "processor": "Core i5-10210U",
+         "ramharddisk": " 256 GB SSD/8 GB",
+         "operatingsystem": "Win10 Pro",
+         "available": "Limited Stock"
+     }, {
+         "photo": "https://raw.githubusercontent.com/X-workzDev01/NetzwerkSystem/main/img/t3.jpg",
+         "title": "ThinkPad E14",
+         "description": "720p HD Camera,Mic,Wifi BT,BagPack,3Y Onsite Warranty + 1 Yr Premiere Support",
+         "processor": "Core i7-10510U",
+         "ramharddisk": " 512 GB SSD/16 GB",
+         "operatingsystem": "Win10 Pro",
+         "available": "Limited Stock"
+     }, {
+         "photo": "https://raw.githubusercontent.com/X-workzDev01/NetzwerkSystem/main/img/t2.jpg",
+         "title": "ThinkPad E14",
+         "description": "720p HD Camera,Mic,Wifi BT,BagPack,1Y Onsite Warranty Support",
+         "processor": "Core i5-10210U",
+         "ramharddisk": " 500 GB/ 4GB DDR4",
+         "operatingsystem": "No OS",
+         "available": "Limited Stock"
+     }, {
+         "photo": "https://raw.githubusercontent.com/X-workzDev01/NetzwerkSystem/main/img/t12.jpg",
+         "title": "ThinkPad E14",
+         "description": "720p HD Camera,Mic,Backlit Kyb, BagPack,3 Yrs Onsite Warranty + 1 Yr Premiere Support",
+         "processor": "Core i5-10210U",
+         "ramharddisk": " 500 GB/ 8GB DDR4",
+         "operatingsystem": "Win10 Pro",
+         "available": "Limited Stock"
+     }, {
+         "photo": "https://raw.githubusercontent.com/X-workzDev01/NetzwerkSystem/main/img/t11.jpg",
+         "title": "ThinkPad E14",
+         "description": "720p HD Camera,Mic,Wifi BT,Backlit KB,BagPack,3Y Onsite Warranty + 1 Yr Premiere Support",
+         "processor": "Core i7-10510U/ RX640 2GB",
+         "ramharddisk": " 512 GB SSD/16 GB",
+         "operatingsystem": "Win10 Pro",
+         "available": "Limited Stock"
+     }, {
+         "photo": "https://raw.githubusercontent.com/X-workzDev01/NetzwerkSystem/main/img/t10.jpg",
+         "title": "ThinkPad E14",
+         "description": "720p HD Camera,Mic,Wifi BT ,BagPack ,1Y Onsite Warranty",
+         "processor": "Core i5-10210U",
+         "ramharddisk": " 256 GB SSD/8 GB",
+         "operatingsystem": "Win10 Pro",
+         "available": "Limited Stock"
+     }
+
+
+
+ ]

@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stly.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css " rel="stylesheet ">
+    <title>Product page</title>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect " href="https://fonts.googleapis.com ">
+    <link rel="preconnect " href="https://fonts.gstatic.com " crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Rubik&display=swap " rel="stylesheet ">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+        <div class="container ">
+            <a class="navbar-brand " href="# ">Netzwerk</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto my-2 my-lg-0 ">
+                    <li class="nav-item ">
+                        <a class="nav-link active " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="about.html">About Us
+                </a>
+
+                        <li class="nav-item ">
+                            <a class="nav-link " href="contact.html">Contact US</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#destop" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Desktop
+                    </a>
+                            <!---- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Apple</a></li>
+                        <li><a class="dropdown-item" href="#">Dell</a></li>
+                        <li><a class="dropdown-item" href="#">HP</a></li>
+                        <li><a class="dropdown-item" href="#">Lenova</a></li>
+                    </ul>-->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#laptop" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Laptop
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!----<li><a class="dropdown-item" href="#">Apple</a></li>
+                        <li><a class="dropdown-item" href="#">Dell</a></li>----->
+                                <li><a class="dropdown-item" href="#laptop">Lenova/Thinkpad</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#acces" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Accosserios
+                    </a>
+                            <!---- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">HardDisk</a></li>
+                        <li><a class="dropdown-item" href="#">Ram</a></li>
+                        <li><a class="dropdown-item" href="#">Keyboard</a></li>
+                        <li><a class="dropdown-item" href="#">Mouse</a></li>
+                        <li><a class="dropdown-item" href="#">Processor</a></li>
+                    </ul>-->
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#server" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Server
+                    </a>
+                            <!---- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Dell</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>-->
+                        </li>
+
+                </ul>
+
+            </div>
+
+
+
+        </div>
+    </nav>
+
+    <!---------------desktop-->
+    <section class="desktop py-5" id="desktop">
+        <div class="container py-5">
+            <h2 class="title">Desktop</h2>
+            <div class="row">
+
+
+
+            </div>
+            <hr>
+
+
+
+        </div>
+    </section>-->
+    <!---------------Laptop-->
+    <section class="Latoptop py-5" id="laptop">
+        <div class="container pt-5">
+            <h2 class="title"> Laptops</h2>
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <table class="table ">
+                        <thead>
+                            <th>Model NO</th>
+                            <th>Description</th>
+                            <th>Processor</th>
+                            <th>Ram And HardDisk</th>
+                            <th>Operating System</th>
+                            <th>Availability</th>
+                            <th></th>
+                        </thead>
+
+
+                        <tbody id="del">
+                            <div class="card">
+
+                            </div>
+
+                        </tbody>
+                    </table>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js">
+        </script>
+        <script>
+            $(document).ready(function() {
+
+                // FETCHING DATA FROM JSON FILE
+                $.getJSON("json/thinkpad.json",
+                    function(data) {
+                        var st = '';
+
+                        // ITERATING THROUGH OBJECTS
+                        $.each(data, function(key, value) {
+
+                            //CONSTRUCTION OF ROWS HAVING
+                            // DATA FROM JSON OBJECT
+                            st += '<tr>';
+                            st += '<td><img src="' + value.photo + '" class="card-img-top photo" alt="..."></img>';
+                            st += '<h5 class="card-title">' + value.title + '</h5></td>';
+                            st += '<td><p class="list-group-item text-size">' + value.description + '</p></td>';
+                            st += '<td><div class="list-group-item text-size">' + value.processor + '</div></td>';
+                            st += '<td><div class="list-group-item text-size">' + value.ramharddisk + '</div></td>';
+                            st += '<td><div class="list-group-item text-size">' + value.operatingsystem + '</div></td>';
+                            st += '<td><div class="list-group-item text-size" style="color:red;">' + value.available + '</div></td>';
+                            st += '<td><div class="list-group-item text-size" style="text-align:right" ><p><button class="button_i"><a href="contact.html#form" class="anc">Contact US</a></button></p></div></div></td>';
+                            st += '</tr>';
+                        });
+
+
+                        //INSERTING ROWS INTO TABLE 
+                        $('#del').append(st);
+                    });
+            });
+        </script>
+        </hr>
+        </div>
+    </section>
+    <!---------------server-->
+    <section class="server py-5" id="server">
+        <div class="container py-5">
+            <h2 class="title"> Server</h2>
+            <div class="row">
+                <div id="">
+
+                </div>
+            </div>
+
+
+            <hr>
+        </div>
+    </section>
+    <!---------------Accessories-->
+    <section class="acces py-5" id="acces">
+        <div class="container py-5">
+            <h2 class="title"> Accosserios</h2>
+            <div class="row">
+
+
+            </div>
+            <hr>
+            <div id="WAButton"></div>
+        </div>
+    </section>
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "171807361623484");
+        chatbox.setAttribute("attribution", "biz_inbox");
+
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v11.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-------foooter--------->
+    <section class="footer py-1  ">
+        <div class="container py-5 ">
+
+            <div class="row ">
+                <div class="col-lg-3 m-auto ">
+                    <img src="img/logo.png ">
+                </div>
+                <div class="col-lg-3 m-auto text-center ">
+                    <h3> Services</h3>
+                    <p>Resale Computers&#160;&#160;&#160;Tablets&#160;&#160;&#160;Mobiles </p>
+                </div>
+                <div class="col-lg-3 m-auto text-center ">
+                    <h3>Follow Us </h3>
+                    <span><i class="fa fa-facebook-official " style="font-size:36px "></i></span>
+                </div>
+            </div>
+
+
+            <hr>
+            <p class="copyright m-auto text-center ">Copyright <i class="fa fa-copyright ">2021</i>All Rights Reserved</p>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj " crossorigin="anonymous "></script>
+    <script type="text/javascript" src="js/mainJS.js"></script>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+    <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+    <script type="text/javascript" src="js/whatsapp.js"></script>
+
+
+</body>
+
+</html>

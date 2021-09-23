@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: blue;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-link:hover {
+    color: blueviolet;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    font-family: 'Lora', serif;
+}
+
+.main {
+    background-image: url("./img/laps.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.main h1 {
+    font: size 4rem;
+    font-weight: 700;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    background-color: rgb(248, 26, 92);
+    font-weight: 700;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: red;
+    transition: 0.5s;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    font-weight: 700;
+}
+
+.title::after {
+    content: '';
+    background-color: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card:hover {
+    box-shadow: 7px 6px 21px 30px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 7px 6px 21px 30px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 7px 6px 21px 30px rgba(0, 0, 0, 0.08);
+    transition: 0.5s;
+}
+
+.anc {
+    text-decoration: none;
+    color: white;
+}
+
+.show:hover {
+    box-shadow: 7px 6px 21px 30px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 7px 6px 21px 30px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 7px 6px 21px 30px rgba(0, 0, 0, 0.08);
+    transition: 0.5s;
+}
+
+.prod a {
+    text-decoration: none;
+}
+
+
+/*.photo {
+    max-width: 100%;
+}*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 30%;
+    margin: auto;
+    text-align: left;
+    font-family: arial;
+}
+
+
+/*
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+
+
+
+.des {
+    column-width: 700px;
+}*/
+
+table,
+td {
+    border: honeydew solid 2px;
+    width: 70%;
+    align-content: center;
+    table-layout: auto;
+}
+
+.card-title,
+.list-group-item {
+    color: #000;
+    font-size: 20px;
+}
+
+.button_i {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+table,
+td,
+th {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    height: 21px;
+    width: 100%;
+    vertical-align: left;
+}
+
+.text-size {
+    text-align: left;
+    font-size: 20px;
+}
+
+
+/*--------------tabs-------------------*/
+
+.tab {
+    background-color: tan;
+}
+
+
+/*-----------------google map-------------*/
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_iframe {
+    height: 400px!important;
+}
+
+
+/*--------footer-------*/
+
+.footer {
+    background-color: #F8F9FA;
+}
+
+
+/*---------------form-----------*/
+
+.form-mid {
+    background: #fff;
+    padding: 3rem;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.form-mid form input,
+.form-mid form textarea {
+    background: #f8f9fa;
+    border: 2px solid rgba(216, 216, 216, 0.3);
+    color: #777;
+    font-size: 16px;
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: 4px;
+    height: 55px;
+}
+
+.form-mid form textarea {
+    resize: none;
+    min-height: 140px;
+}
+
+.form-mid form input:focus,
+.form-mid form textarea:focus {
+    outline: none;
+    border: 2px solid #051b35;
+    background: #fff;
+    box-shadow: none;
+}
